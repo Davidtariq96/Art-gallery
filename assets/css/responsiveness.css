@@ -14,6 +14,7 @@
     
     body{
         text-align: center;
+        font-family: 'Montserrat', sans-serif;
     }
     
     .fa-bars{
@@ -28,13 +29,15 @@
         padding: 10px 20px;
       }
       .navbar .nav-link {
-        font-size: 20px;
-        color: rgb(214, 209, 209);
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 500;
         margin-left: 10px;
       }
 
       .search{
           padding-top: 1rem;
+          margin: 0 auto;
       }
 
       .hero-img{
@@ -42,7 +45,7 @@
       }
 
       .art-image{
-          max-width: 300px;
+          max-width: 360px;
           min-width: 200px;
           height: auto;
       }
@@ -55,6 +58,12 @@
           text-align: justify;
           padding-top: 5rem;
           
+      }
+      .left-flex h3{
+          font-size: 2.5rem;
+          font-weight: 500;
+          font-style: normal;
+
       }
 
       .block-image{
@@ -138,13 +147,31 @@
         margin-left: -1rem;
     }
     
+    .small-gold img{
+        width: 50px;
+        float: left;
+        margin-left: 3rem;
+        margin-top: 3rem;
+    }
+
+    .headings h3{
+        font-weight: 500;
+        font-size: 29px;
+    }
+
+    .headings h5{
+        font-size: 20px;
+        font-weight: normal;
+    }
+
     #d-flex{
         flex-direction: column;        
     }
 
+
     .gallery img{
         max-width: 300px;
-        min-width: 200px;
+        min-width: 150px;
         height: auto;
     }
     
@@ -165,11 +192,13 @@
         display: flex;
         justify-content: space-around;
         flex-direction: row-reverse;
+        
     }
 
     .search-headings{
         text-align: justify;
         margin-top: 8rem;
+        margin-right: -2rem;
     }
 
     .collection{
@@ -194,12 +223,14 @@
         max-width: 300px;
         min-width: 200px;
         height: auto;
+        margin-right: 9rem;
         margin-left: -7rem;
     }
     .curato img{
         max-width: 300px;
         min-width: 200px;
         height: auto;
+        margin-left: 6rem;
     }
 
     .gold-texture2{
@@ -226,7 +257,7 @@
         background-color: #D1D0FF;
         padding-top: 3rem;
         padding-bottom: 2rem;
-        margin-top: -1rem;
+        margin-top: -3rem;
     }
     .carousal h3, p{
         text-align: justify;
@@ -331,3 +362,12 @@
         line-height: 32px;
     }
 }
+
+/* @media only screen and(min-width:){
+    .gallery{
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem 4rem;
+        background: red;
+    }   
+} */
