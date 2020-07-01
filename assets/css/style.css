@@ -1,4 +1,4 @@
-@media only screen and (max-width:920px){
+@media only screen and (max-width:768px){
     *{
         margin: 0;
         padding: 0;
@@ -7,20 +7,12 @@
     }
     
     body{
-        text-align: center
+        text-align: center;
     }
     
-    
-    /* @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
-    * {
-      font-family: "Titillium Web", sans-serif;
-    } */
-    
-    .navbar .navbar-brand {
-      font-size: 30px;
-    }
     .navbar .nav-item {
       padding: 10px 20px;
+      background-color: black;
     }
     .navbar .nav-link {
       font-size: 20px;
@@ -63,9 +55,8 @@
         
     }
     
-    
-    .block-image{
-        margin-top: 2rem;
+    .block-image1 img{
+        display: none;
     }
     
     .container-dark{
@@ -165,6 +156,10 @@
     }
     .search-headings{
         margin: 1rem;
+    }
+    
+    .collection{
+        display: block;
     }
     .collection img{
         width: 270px;
@@ -286,7 +281,6 @@
     }
     
     .social-icons{
-        border-bottom: 1px solid #3A3B3C;
         margin: 0 1.4rem;
     }
     
