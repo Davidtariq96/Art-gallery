@@ -76,13 +76,8 @@ body{
     padding-top: 2rem;
 }
 .left-flex{
-    width: 385px;
-    align-content: center;
-    justify-content: center;
-}
-
-.headings{
-    width: 310px;
+    width: 300px;
+    text-align: justify;
 }
 
 .left-flex h5{
