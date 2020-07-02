@@ -192,8 +192,7 @@
 
 
     .gallery img{
-        max-width: 293.67px;
-        min-width: 150px;
+        width: 300px;
         height: auto;
         margin-right: 8rem;
     }
@@ -228,16 +227,14 @@
     }
 
     .search img{
-        max-width: 293.67px;
-        min-width: 150px;
+        width: 300px;
         height: auto;
         margin-right: 9rem;
         margin-left: -12rem;
     }
 
     .collection img{
-        max-width: 293.67px;
-        min-width: 150px;
+        width:300px;
         height: auto;
         margin-top: -3rem;
         margin-left: -2rem;
@@ -283,8 +280,7 @@
     }
 
     .curato img{
-        max-width: 293.67px;
-        min-width: 150px;
+        width: 300px;
         height: auto;      
         margin-right: 9rem;
         margin-left: -7rem;

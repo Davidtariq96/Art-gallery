@@ -77,6 +77,8 @@ body{
 }
 .left-flex{
     width: 385px;
+    align-content: center;
+    justify-content: center;
 }
 
 .headings{
