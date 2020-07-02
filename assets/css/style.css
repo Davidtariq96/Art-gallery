@@ -75,6 +75,17 @@ body{
     justify-content: center;
     padding-top: 2rem;
 }
+.left-flex{
+    width: 385px;
+}
+
+.headings{
+    width: 310px;
+}
+
+.left-flex h5{
+    margin-left: -0.5rem;
+}
 
 .sub-items2{
     margin-left: -2rem;
@@ -190,7 +201,7 @@ body{
 .carousal{
     background: #D1D0FF;
     margin-top: 3rem;
-    
+    padding-bottom: 3rem;
 }
 
 .carousal img{
@@ -213,6 +224,9 @@ body{
 span img{
     width: 25px;
 
+}
+.figimg{
+    margin-top: 1.3rem;
 }
 
 .sub-carousal{
@@ -246,6 +260,10 @@ figure.figimg{
     color: #870058;
 }
 
+.name{
+    margin-left: 1rem;
+    margin-bottom: -2rem;
+}
 .inner-flex{
     display: flex;
     justify-content: space-around;
