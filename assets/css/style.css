@@ -78,11 +78,12 @@ body{
 .left-flex{
     width: 300px;
     text-align: justify;
+    margin: 0 auto;
 }
 
-.left-flex h5{
-    margin-left: -0.5rem;
-}
+/* .left-flex h5{
+    text-align: center;
+} */
 
 .sub-items2{
     margin-left: -2rem;
