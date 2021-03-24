@@ -1,2 +1,2 @@
 # Art-gallery
-my art gallery app
+An art gallery app
