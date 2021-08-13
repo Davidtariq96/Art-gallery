@@ -10,7 +10,7 @@
 body{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-
+    scroll-behavior: smooth;
 }
 
 .navbar .nav-item {
@@ -33,6 +33,7 @@ body{
 .navbar ul a{
     color: gray;
 }
+
 
 #flex-center h3{
     text-align: center;
